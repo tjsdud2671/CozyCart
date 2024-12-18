@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail - CozyCart</title>
+    <!-- Custom CSS & JS -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/custom.js"></script>
+    <!-- Slick Slider -->
+    <script src="/js/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="/js/slick/slick-theme.css" />
+    <link rel="stylesheet" href="/js/slick/slick.css" />
+  </head>
+  <body>
+    <div class="container goods-detail">
+      <div class="goods-detail-inner">
+        <div class="goods-detail-header">
+          <button class="detail-btn-back" onclick="history.back()">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <h2 class="logo" onclick="location.href='/html/main.html'">
+            CozyCart
+          </h2>
+          <span class="user-search" onclick="location.href='/html/search.html'"
+            ><i class="bi bi-search"></i
+          ></span>
+          <span class="user-cart" onclick="location.href='/html/cart.html'"
+            ><i class="bi bi-cart"></i
+          ></span>
+        </div>
+        <div class="goods-detail-content">
+          <div class="goods-slider-outer">
+            <div class="goods-slider">
+              <a href=""><img src="/images/cat.jpg" alt="" /></a>
+              <a href=""><img src="/images/cat2.jpg" alt="" /></a>
+              <a href=""><img src="/images/cat3.jpg" alt="" /></a>
+              <a href=""><img src="/images/cat4.jpg" alt="" /></a>
+            </div>
+            <button class="btn-share">
+              <i class="bi bi-share-fill"></i>
+            </button>
+          </div>
+          <div class="goods-info">
+            <div class="goods-title">
+              <a href="">multitokki</a>
+              <span>Happy Cat Shot Glass (white)</span>
+            </div>
+            <div class="goods-price">
+              <span>12,000</span>
+              <div class="goods-price-disc">
+                <span>10,200</span>
+                <a href=""><em>쿠폰받기</em></a>
+              </div>
+            </div>
+          </div>
+          <div class="goods-delivery-info">
+            <div class="delivery-title">배송정보</div>
+            <div class="delivery-info">
+              <span>5만원 이상 구매시 무료배송</span>
+              <span>12/24(화) 도착 예정 (평균 배송 소요 2~3일)</span>
+              <span>제주, 도서, 산간 지역 15,000원 추가</span>
+            </div>
+          </div>
+          <div class="goods-detail">
+            <div class="goods-detail-info">
+              <span>복슬복슬, 고양이 발을 본따 만든 술잔입니다.</span>
+              <span
+                >고양이는 거부의사를 표현할 때, 발바닥으로 밀어내곤
+                하는데요</span
+              >
+              <span>우리도 술을 더 마시기 힘들 때는 잔을 뒤집어서</span>
+              <span>귀엽게 표현해 보는 건 어떨까요?</span>
+              <span>과음은 금물 !</span>
+              <span>모두모두 즐거운 술자리 되시길 바랍니다 ~</span>
+            </div>
+            <img src="/images/20241119_163255.png" alt="" />
+            <img src="/images/20241119_163802.png" alt="" />
+            <img src="/images/cat.jpg" alt="" />
+          </div>
+          <div class="goods-review-accordion">
+            <div class="title active">상품후기</div>
+            <div class="detail">
+              <div class="detail-review">
+                <div class="review-star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <span>사용할 때 마다 기분이 좋아져요</span>
+                <span>tj******</span>
+              </div>
+              <div class="detail-review">
+                <div class="review-star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <span>귀엽습니다 추천</span>
+                <span>yy******</span>
+              </div>
+            </div>
+            <div class="title">상품문의</div>
+            <div class="detail">
+              <img src="/images/goods-detail-accordion-content-01.png" alt="" />
+            </div>
+            <div class="title">배송안내</div>
+            <div class="detail">
+              <img src="/images/goods-detail-accordion-content-02.png" alt="" />
+            </div>
+            <div class="title">교환 및 반품안내</div>
+            <div class="detail">
+              <img src="/images/goods-detail-accordion-content-03.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="goods-order-info">
+          <div class="goods-order-choice">
+            <span class="wish"></span>
+            <button class="btn-primary btn-order-choice">구매하기</button>
+          </div>
+          <div class="goods-order-final">
+            <button class="btn-fold"><i class="bi bi-chevron-down"></i></button>
+            <div class="goods-order-final-info">
+              <div class="goods-order-item">
+                <span>Happy Cat Shot Glass (white)</span>
+              </div>
+              <div class="goods-order-item-price">
+                <span>15%</span>
+                <span>12,000원</span>
+                <span>10,200원</span>
+                <select name="" id="">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="payment-benefit">
+              <p>결제혜택</p>
+              <span>하나카드 5만원 결제 시 최대 8개월 무이자 할부</span>
+              <span>PAYCO 생애 첫 결제 시 2,000원 즉시 할인 </span
+              ><a href>더보기</a>
+            </div>
+            <div class="goods-order-btns">
+              <button
+                class="btn-cart"
+                onclick="location.href='/html/cart.html'"
+              >
+                장바구니 담기
+              </button>
+              <button
+                class="btn-now-order"
+                onclick="location.href='/html/cart.html'"
+              >
+                바로구매
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="overlay-fold"></div>
+      </div>
+    </div>
+  </body>
+</html>

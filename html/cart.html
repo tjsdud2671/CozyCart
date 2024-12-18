@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - CozyCart</title>
+
+    <!-- Custom CSS & JS -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/custom.js"></script>
+  </head>
+  <body>
+    <div class="container cart">
+      <div class="cart-inner">
+        <!-- Main-header include-->
+        <div class="main-header-include"></div>
+        <!-- Main-header include-->
+        <div class="cart-content">
+          <div class="cart-icon"><i class="bi bi-cart2"></i></div>
+          <div class="cart-items">
+            <button class="cart-btn-clear">
+              <i class="bi bi-x-lg"></i>
+            </button>
+            <div class="cart-item">
+              <div>
+                <input type="checkbox" />
+              </div>
+              <div class="cart-item-img">
+                <img src="/images/cat.jpg" />
+              </div>
+              <div class="cart-item-info">
+                <div class="cart-item-name">
+                  <span>Happy Cat Shot Glass (white)</span>
+                </div>
+                <div class="cart-item-price">
+                  <span>12,000</span>
+                </div>
+                <div class="cart-item-select">
+                  <select>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <button class="cart-btn-clear">
+              <i class="bi bi-x-lg"></i>
+            </button>
+            <div class="cart-item">
+              <div>
+                <input type="checkbox" />
+              </div>
+              <div class="cart-item-img">
+                <img
+                  src="/images/dd3f11a0-8d7f-441f-a567-af702e83d866-86ED848A2094EBAC942082EB815BA9EBA0B920B1EB819D5DA9ECB81.jpg"
+                />
+              </div>
+              <div class="cart-item-info">
+                <div class="cart-item-name">
+                  <span>HOOKKA HOOKKA STUDIO</span>
+                </div>
+                <div class="cart-item-price">
+                  <span>12,500</span>
+                </div>
+                <div class="cart-item-select">
+                  <select>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cart-price">
+            <div class="total-price">
+              <span>총 상품가격</span>
+              <span>24,500원</span>
+            </div>
+            <div class="total-disc">
+              <span>총 할인금액</span>
+              <span>4,500원</span>
+            </div>
+            <div class="delivery-fee">
+              <span>베송비</span>
+              <span>0원</span>
+            </div>
+          </div>
+          <div class="cart-total">
+            <span>총 결제 예상 금액</span>
+            <span>20,000원</span>
+          </div>
+          <button class="btn-primary btn-buy">2개 상품 주문하기</button>
+          <div class="cart-info">
+            <p>장바구니에 담긴 상품은 90일간 보관됩니다.</p>
+          </div>
+        </div>
+        <!--  GNB include-->
+        <div
+          class="gnb-include"
+          onclick="location.href='/html/signin.html'"
+        ></div>
+        <!--  GNB include-->
+      </div>
+    </div>
+  </body>
+</html>
